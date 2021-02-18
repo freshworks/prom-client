@@ -11,6 +11,8 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- fix: always using sum aggregator for sum & count in histogram & summary
+
 - The `done()` functions returned by `gauge.startTimer()` and
   `summary.startTimer()` now return the timed duration. Histograms already had
   this behavior.
